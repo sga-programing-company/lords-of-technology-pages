@@ -1,0 +1,35 @@
+.title-background {
+	background: url('https://github.com/sga-programing-company/imagenes/blob/main/05-1920x1257.jpg?raw=true');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.background {
+	background: #0009;
+}
+
+.title-principal {
+	padding-top: 40%;
+}
+
+.subtitle-principal {
+	padding-bottom: 20%;
+}
+
+.border-top {
+	border-top: 2px dashed;
+	border-color: var(--letter-color-secondary);
+}
+
+.header-product {
+	background: url('https://github.com/sga-programing-company/imagenes/blob/main/06-1920x1275.jpg?raw=true');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	;
+}
+
+.product-title {
+	padding: 30% 0 10% 0;
+}
