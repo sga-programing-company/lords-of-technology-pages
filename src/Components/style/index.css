@@ -146,6 +146,38 @@ p {
 	background: linear-gradient(180deg, var(--primary) 20%, #0000 100%);
 }
 
+.dissipated-secondary-bottom {
+	background: linear-gradient(180deg, var(--secondary) 20%, #0000 100%);
+}
+
+.dissipated-secondary-left {
+	background: linear-gradient(270deg, var(--secondary) 20%, #0000 100%);
+}
+
+.dissipated-secondary-top {
+	background: linear-gradient(0deg, var(--secondary) 20%, #0000 100%);
+}
+
+.dissipated-secondary-right {
+	background: linear-gradient(90deg, var(--secondary) 20%, #0000 100%);
+}
+
+.dissipated-tertiary-bottom {
+	background: linear-gradient(180deg, var(--tertiary) 20%, #0000 100%);
+}
+
+.dissipated-tertiary-left {
+	background: linear-gradient(270deg, var(--tertiary) 20%, #0000 100%);
+}
+
+.dissipated-tertiary-top {
+	background: linear-gradient(0deg, var(--tertiary) 20%, #0000 100%);
+}
+
+.dissipated-tertiary-right {
+	background: linear-gradient(90deg, var(--tertiary) 20%, #0000 100%);
+}
+
 /* 
 /////////////////////////////////////////////////////
 					wave
@@ -310,6 +342,7 @@ p {
 	top: 0;
 	position: fixed;
 	width: 100%;
+	z-index: 10000;
 }
 
 #navbar-container {
@@ -418,6 +451,7 @@ p {
 	border-radius: 100px;
 	border: 3px solid #fff;
 	clip-path: circle(50% at 50% 50%);
+	z-index: 0;
 }
 
 .services-body p {

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
 import NavbarModal from './modal/NavbarModal';
 
@@ -16,6 +16,10 @@ const Navbar = () => {
 			document.body.classList.remove('offScroll')
 		}
 	}
+
+	useEffect(() => {
+		console.log(window.scrollY);
+	})
 
 	return (
 

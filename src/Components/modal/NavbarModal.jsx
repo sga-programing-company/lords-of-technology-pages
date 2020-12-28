@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Link } from 'react-router-dom';
 
 const NavbarModal = ({ onOpen, onClose }) => {
 	return (
@@ -12,26 +11,50 @@ const NavbarModal = ({ onOpen, onClose }) => {
 							<ul className="navbar-list">
 								<li>
 									<div>
-										<Link to='/' className="navbar-item">
+										<a
+											href='#home'
+											className="navbar-item"
+											onClick={onClose}
+										>
 											<p className="navbar-content">Inicio</p>
 											<i className="fas fa-home fa-lg navbar-icon"></i>
-										</Link>
+										</a>
 									</div>
 								</li>
 								<li>
 									<div>
-										<Link to='/product' className="navbar-item">
-											<p className="navbar-content">Productos</p>
+										<a
+											href='#about-us'
+											className="navbar-item"
+											onClick={onClose}
+										>
+											<p className="navbar-content">Acerca de...</p>
+											<i className="fas fa-phone fa-lg navbar-icon"></i>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div>
+										<a
+											href='#service'
+											className="navbar-item"
+											onClick={onClose}
+										>
+											<p className="navbar-content">Servicios</p>
 											<i className="fas fa-shopping-cart fa-lg navbar-icon"></i>
-										</Link>
+										</a>
 									</div>
 								</li>
 								<li>
 									<div>
-										<Link to='/contact' className="navbar-item">
+										<a
+											href='#service'
+											className="navbar-item"
+											onClick={onClose}
+										>
 											<p className="navbar-content">Contacto</p>
 											<i className="fas fa-user-astronaut fa-lg navbar-icon"></i>
-										</Link>
+										</a>
 									</div>
 								</li>
 							</ul>

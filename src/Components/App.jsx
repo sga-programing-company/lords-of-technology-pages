@@ -3,9 +3,8 @@ import { BrowserRouter as Router, Switch, Route, } from 'react-router-dom';
 import Footer from './Footer';
 import Navbar from './Navbar';
 import HomePage from './pages/HomePage';
-import ProductPage from './pages/ProductPage';
 
-function App() {
+const App = () => {
 	return (
 		<Fragment>
 			<Router>
@@ -13,9 +12,6 @@ function App() {
 				<Switch>
 					<Route path='/' exact>
 						<HomePage />
-					</Route>
-					<Route path='/product' exact>
-						<ProductPage />
 					</Route>
 				</Switch>
 				<Footer />

@@ -4,7 +4,7 @@ import React, { Fragment } from 'react';
 const TitlePrincipal = () => {
     return (
         <Fragment>
-            <header>
+            <header id='home'>
                 <div className='title-background text-light'>
                     <div className='background'>
                         <h1 className='text-center title-principal '>LORDS OF TECHNOLOGY</h1>
